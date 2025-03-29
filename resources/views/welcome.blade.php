@@ -7,6 +7,6 @@
 </head>
 <body>
     <h1>Livewire crash course 3.6</h1>
-    <livewire:counter />
+    <livewire:todos />
 </body>
 </html>
