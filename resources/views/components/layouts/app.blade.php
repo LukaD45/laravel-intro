@@ -10,10 +10,10 @@
     <body>
         <nav>
             
-            <a href="/" @class(["current"=>request()->is("/")])>Todos</a>
-            <a href="/counter" @class(["current"=>request()->is("counter")])>Counter</a>
-            <a href="/showposts" @class(["current"=>request()->is("showposts")])>Show Posts</a>
-            <a href="/create-post" @class(["current"=>request()->is("create-post")])>Create Post</a>
+            <a wire:navigate href="/" @class(["current"=>request()->is("/")])>Todos</a>
+            <a wire:navigate href="/counter" @class(["current"=>request()->is("counter")])>Counter</a>
+            <a wire:navigate href="/showposts" @class(["current"=>request()->is("showposts")])>Show Posts</a>
+            <a wire:navigate href="/create-post" @class(["current"=>request()->is("create-post")])>Create Post</a>
         </nav>
         {{ $slot }}
     </body>
