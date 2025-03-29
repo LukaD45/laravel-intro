@@ -14,6 +14,11 @@ class PostRow extends Component
 
         $this->post = $post;
     }
+
+    public function archive()
+    {
+        $this->post->archive();
+    }
     public function render()
     {
         return view('livewire.post-row');

@@ -13,6 +13,8 @@ class Showposts extends Component
         $post->delete();
     }
 
+
+
     public function render()
     {
         return view('livewire.showposts', [
