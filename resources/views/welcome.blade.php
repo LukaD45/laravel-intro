@@ -6,6 +6,7 @@
     <title>Livewire crash course</title>
 </head>
 <body>
-    <h1>Livewire crash course 3.0</h1>
+    <h1>Livewire crash course 3.6</h1>
+    <livewire:counter />
 </body>
 </html>
